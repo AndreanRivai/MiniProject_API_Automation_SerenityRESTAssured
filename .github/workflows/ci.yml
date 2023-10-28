@@ -28,5 +28,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: AltaShop API
+      - name: AltaShop API push02
         run: mvn clean verify

@@ -12,7 +12,6 @@ Feature: Register and Login
     Given I set login API endpoint
     When I send POST HTTP request for login
     Then I receive HTTP response status code 200 OK
-#    Then I receive login token
 
   Scenario: GET - As a user i want to get my user information
     Given I set user information API endpoint
