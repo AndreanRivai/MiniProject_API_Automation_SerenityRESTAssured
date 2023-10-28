@@ -19,7 +19,7 @@ public class Auth {
     public void sendPostRegister(){
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("email", "dohc23907@gmail.com");
+        requestBody.put("email", "dohc02314@gmail.com");
         requestBody.put("password", "abcde");
         requestBody.put("fullname", "Andre");
 
